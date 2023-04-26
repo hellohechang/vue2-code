@@ -4,7 +4,7 @@
 import observe from "./observe"
 import proxyData from "./proxy"
 
-function initState(vm) {
+export function initState(vm) {
   let options = vm.$options
   if (options.data) {
     // 初始化数据
@@ -20,8 +20,4 @@ function initData(vm) {
   }
 
   observe(vm._data)
-}
-
-export {
-  initState
 }

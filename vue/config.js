@@ -1,6 +1,6 @@
 
 // 改变数组自身的方法
-const ARR_METHODS = [
+export const ARR_METHODS = [
   'push',
   'pop',
   'shift',
@@ -9,7 +9,3 @@ const ARR_METHODS = [
   'splice',
   'reverse'
 ]
-
-export {
-  ARR_METHODS
-}
