@@ -25,4 +25,4 @@ let vm = new Vue({
 
 
 // console.log(vm.firend.pop())
-// console.log(vm)
+console.log(vm)
